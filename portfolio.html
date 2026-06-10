@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Elaine Tech Solutions</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+x
+<body>
+  
+  <header class="site-header">
+    <div class="container nav-wrap">
+
+      <a class="brand" href="index.html">
+        <span class="brand-mark">ETS</span>
+        <span>
+          <strong>Elaine Tech Solutions</strong>
+          <small>INNOVATE · SECURE · GROW</small>
+        </span>
+      </a>
+
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="services.html">Services</a>
+        <a class="active" href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button id="themeToggle" class="theme-toggle">◐</button>
+        <a class="btn btn-ghost" href="contact.html">Login</a>
+        <a class="btn btn-primary" href="contact.html">Register</a>
+      </div>
+
+    </div>
+  </header>
+
+  <main>
+
+  
+    <section class="page-hero section-pad light-section">
+      <div class="container reveal">
+        <span class="eyebrow">Portfolio</span>
+        <h1>Sample Project Showcase</h1>
+        <p>
+          This static portfolio uses client-side filtering instead of a database-driven system.
+        </p>
+      </div>
+    </section>
+
+ 
+    <section class="section-pad">
+      <div class="container">
+
+       
+        <div class="filter-bar reveal">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="web">Web Development</button>
+          <button class="filter-btn" data-filter="software">Software</button>
+          <button class="filter-btn" data-filter="training">ICT Skills</button>
+          <button class="filter-btn" data-filter="industrial">Industrial</button>
+        </div>
+
+     
+        <div class="card-grid portfolio-grid">
+
+          
+          <article class="project-card reveal portfolio-item" data-category="web">
+            <div class="project-thumb">
+              <img src="images/web.jpg" alt="Website UI">
+            </div>
+            <span class="tag">Web Development</span>
+            <h3>Corporate Website Revamp</h3>
+            <p>Modernized digital presence with responsive design and improved content flow.</p>
+          </article>
+
+        
+          <article class="project-card reveal portfolio-item" data-category="software">
+            <div class="project-thumb">
+              <img src="images/dashboard.jpg" alt="System Dashboard">
+            </div>
+            <span class="tag">Software Engineering</span>
+            <h3>Internal Workflow Platform</h3>
+            <p>Custom operational platform for visibility, coordination, and reporting.</p>
+          </article>
+
+          
+          <article class="project-card reveal portfolio-item" data-category="training">
+            <div class="project-thumb">
+              <img src="images/learning.jpg" alt="Learning Portal">
+            </div>
+            <span class="tag">ICT Skills</span>
+            <h3>Digital Skills Learning Hub</h3>
+            <p>Training portal for bootcamps, certification guidance, and e-learning.</p>
+          </article>
+
+          
+          <article class="project-card reveal portfolio-item" data-category="industrial">
+            <div class="project-thumb">
+              <img src="images/iot.jpg" alt="IoT Integration">
+            </div>
+            <span class="tag">Industrial Solutions</span>
+            <h3>Smart Monitoring Interface</h3>
+            <p>Connected operations supporting visibility and modern infrastructure.</p>
+          </article>
+
+         
+          <article class="project-card reveal portfolio-item" data-category="software">
+            <div class="project-thumb">
+              <img src="images/security.jpg" alt="Security Layer">
+            </div>
+            <span class="tag">Cybersecurity</span>
+            <h3>Secure Access Experience</h3>
+            <p>Frontend concept showing layered security and professional UX.</p>
+          </article>
+
+          
+          <article class="project-card reveal portfolio-item" data-category="web">
+            <div class="project-thumb">
+              <img src="images/branding.jpg" alt="Brand Showcase">
+            </div>
+            <span class="tag">Business Digital</span>
+            <h3>Growth-Focused Landing Experience</h3>
+            <p>Conversion-ready page for consulting and transformation services.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  
+  <footer class="site-footer">
+
+    <div class="container footer-grid">
+
+      <div>
+        <div class="brand footer-brand">
+          <span class="brand-mark">ETS</span>
+          <span>
+            <strong>Elaine Tech Solutions</strong>
+            <small>INNOVATE · SECURE · GROW</small>
+          </span>
+        </div>
+        <p>Modern ICT solutions for web, software, cybersecurity, training, and industrial transformation.</p>
+      </div>
+
+      <div>
+        <h4>Quick Links</h4>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </div>
+
+      <div>
+        <h4>Services</h4>
+        <a href="services.html">Web Development</a>
+        <a href="services.html">Cybersecurity</a>
+        <a href="services.html">ICT Skills</a>
+        <a href="services.html">Industrial Solutions</a>
+      </div>
+
+      <div>
+        <h4>Contact</h4>
+        <p>Email: info@elainetech.ug</p>
+        <p>Phone: +256394796448</p>
+        <p>Location: Uganda</p>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© 2026 Elaine Tech Solutions. All rights reserved.</p>
+      </div>
+    </div>
+
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+
+</body>
+</html>

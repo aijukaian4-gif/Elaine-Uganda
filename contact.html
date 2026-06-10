@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Elaine Tech Solutions</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet"  href="assets/css/style.css" />
+</head>
+<body>
+  <header class="site-header"><div class="container nav-wrap"><a class="brand" href="index.html"><span class="brand-mark">ETS</span><span><strong>Elaine Tech Solutions</strong><small>INNOVATE · SECURE · GROW</small></span></a><button class="nav-toggle" aria-label="Toggle navigation">☰</button><nav class="site-nav"><a href="index.html">Home</a><a href="about.html">About Us</a><a href="services.html">Services</a><a href="portfolio.html">Portfolio</a><a class="active" href="contact.html">Contact</a></nav><div class="nav-actions"><button id="themeToggle" class="theme-toggle" aria-label="Toggle dark mode">◐</button><a class="btn btn-ghost" href="contact.html">Login</a><a class="btn btn-primary" href="contact.html">Register</a></div></div></header>
+
+  <main>
+    <section class="page-hero section-pad light-section">
+      <div class="container reveal">
+        <span class="eyebrow">Contact</span>
+        <h1>Let’s discuss your next digital project</h1>
+        <p>The original brief specifies an AJAX-enabled contact form. In this static version, the form uses front-end validation and a success message placeholder ready for a service like Formspree, Basin, or your custom backend.</p>
+      </div>
+    </section>
+
+    <section class="section-pad">
+      <div class="container contact-grid">
+        <div class="card reveal office-card">
+          <span class="eyebrow">Office info</span>
+          <h2>Elaine Tech Solutions</h2>
+          <p><strong>Location:</strong> Uganda</p>
+           <p> <strong>Location:</strong>Email: info@elainetech.ug</p>
+          <p> <strong>Phone:</strong> +256394796448</p>
+          <p><strong>Working Hours:</strong> Mon - Fri, 8:00 AM - 5:00 PM</p>
+          <div class="map-placeholder"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1303.3413787310585!2d32.573762746092996!3d0.3309607681347147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sug!4v1776178247468!5m2!1sen!2sug" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+          <div class="social-row"><a href="#">LinkedIn</a><a href="#">Facebook</a><a href="#">X</a></div>
+        </div>
+
+        <form class="card reveal contact-form" id="contactForm">
+          <span class="eyebrow">Send a message</span>
+          <div class="form-grid">
+            <label><span>Full Name</span><input type="text" name="name" required /></label>
+            <label><span>Email Address</span><input type="email" name="email" required /></label>
+            <label><span>Phone Number</span><input type="text" name="phone" /></label>
+            <label><span>Subject</span><input type="text" name="subject" required /></label>
+            <label class="full"><span>Message</span><textarea name="message" rows="6" required></textarea></label>
+          </div>
+          <button class="btn btn-primary" type="submit">Send Message</button>
+          <p id="formMessage" class="form-message"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-grid"><div>
+    <div class="brand footer-brand"><span class="brand-mark">ETS</span>
+      <span><strong>Elaine Tech Solutions</strong><small>INNOVATE · SECURE · GROW</small></span></div>
+      <p>Modern ICT solutions for web, software, cybersecurity, training, and industrial transformation.</p></div>
+      <div>
+        <h4>Quick Links</h4>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <a href="services.html">Web Development</a>
+        <a href="services.html">Cybersecurity</a>
+        <a href="services.html">ICT Skills</a>
+        <a href="services.html">Industrial Solutions</a>
+      </div><div><h4>Contact</h4>
+       <p>Email: info@elainetech.ug</p>
+        <p>Phone: +256394796448</p>
+        <p>Location: Uganda</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© 2026 Elaine Tech Solutions. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
